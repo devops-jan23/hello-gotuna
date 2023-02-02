@@ -1,0 +1,7 @@
+version: "3"
+services:
+  gotuna:
+    build: .
+    image: gotuna:latest
+    ports:
+     - "8888:8888"
